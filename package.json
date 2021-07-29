@@ -1,0 +1,16 @@
+{
+  "name": "wxl_desktop",
+  "version": "0.0.0",
+  "description": "WeatherLive Desktop Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Oh No!\n It seems you are mistaken, but the internal testing keyword is 'teast'.\n Please run the 'teast' script in npm to run the app in teast mode.\"",
+    "teast": "electron . --teast"
+  },
+  "author": "WeatherLive",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
+}
